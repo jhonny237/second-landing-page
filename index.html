@@ -3,26 +3,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="estilo.css" rel="stylesheet"/>
+    <link href="estilo/estilo.css" rel="stylesheet"/>
     <title>landing page</title>
 </head>
 <body>
     <nav class="navbar">
         <div class="menu">
             <a href="#">Home</a>
-            <a href="#">Cursos</a>
-            <a href="# ">Fale Conosco</a>
-            <a id="botao" href="#">Planos</a>
+            <a href="#"> formações</a>
+            <a href="# ">Trabalhos</a>
+            <a id="botao" href="#">Contato</a>
 
         </div>
     </nav>
+    
     <div class="wrapper">
         <main>
             <section class="module parallax parallax-1">
-                <h1>João Pedro Gonzaga <br> portifolio</h1>
+                <div class="img-logo"><img src="logo inf.png"></div>
                 
-            </section>
+                <h1>João Pedro Gonzaga <br> portifolio</h1>
+               
+           </section>
             <section class="module content">
+                
                 <div class="container">
                     <h2>Qualquer texto</h2>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias qui fuga eligendi iure odit atque laboriosam numquam, minus aspernatur? Obcaecati nam sit voluptates veritatis minima perspiciatis assumenda eveniet modi aperiam?</p>
@@ -30,12 +34,12 @@
                 </div>
             </section>
             <section class="module parallax parallax-2">
-                <h1>Algum texto aqui</h1>
+                <h1> formações</h1>
               </section>
-        
+
               <section class="module content">
                 <div class="container">
-                  <h2>Qualquer texto aqui..</h2>
+                  <h2>Minhas  formações</h2>
                   <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut quisquam reiciendis unde voluptatem dignissimos! Adipisci alias rerum commodi ad excepturi. Quod aut maxime non architecto numquam vel et, magnam eius!
                   </p>
@@ -44,20 +48,32 @@
                   </p>          
                 </div>
               </section>
-        
+
               <section class="module parallax parallax-3">
-                <h1>Terceiro titulo aqui</h1>
+                <h1>Trabalhos</h1>
               </section>
-        
+
               <section class="module content">
                 <div class="container">
-                  <h2>Qualquer texto aqui..</h2>
-                  <p>
+                  <h2>Meus Trabalhos</h2>
+                  <a id="buttom" href="https://github.com/jhonny237?tab=repositories">Meu github</a>.</p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut quisquam reiciendis unde voluptatem dignissimos! Adipisci alias rerum commodi ad excepturi. Quod aut maxime non architecto numquam vel et, magnam eius!
                   </p>
                   <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut quisquam reiciendis unde voluptatem dignissimos! Adipisci alias rerum commodi ad excepturi. Quod aut maxime non architecto numquam vel et, magnam eius!
-                  </p>          
+                  </p>  
+            </section>
+
+            <section class="module parallax parallax-4">
+                <h1>contato<br>↧</h1>
+                <form>      
+                    <input name="name" type="text" class="feedback-input" placeholder="Nome" />   
+                    <input name="email" type="text" class="feedback-input" placeholder="Email" />
+                    <textarea name="text" class="feedback-input" placeholder="Comente"></textarea>
+                    <input type="submit" value="SUBMIT"/>
+                  </form>
+            </section>
+
         </main>
     </div>
 </body>
